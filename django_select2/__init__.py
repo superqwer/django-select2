@@ -109,7 +109,6 @@ try:
         if not __GENERATE_RANDOM_ID and __ENABLE_MULTI_PROCESS_SUPPORT:
             logger.warn("You need not turn on ENABLE_SELECT2_MULTI_PROCESS_SUPPORT when GENERATE_RANDOM_SELECT2_ID is disabled.")
             __ENABLE_MULTI_PROCESS_SUPPORT = False
-
         from .widgets import (
             Select2Widget, Select2MultipleWidget,
             HeavySelect2Widget, HeavySelect2MultipleWidget,
